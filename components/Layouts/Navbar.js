@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Link from "../../utils/ActiveLink";
 import SidebarModal from "./SidebarModal";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from 'react-i18next';
 
 const NavLink = () => {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation();
 
   return (
     <ul className="navbar-nav">

@@ -2043,21 +2043,20 @@ Team Section CSS
 .team-item-area {
     cursor: pointer;
     background-color: #fff;
-    margin-bottom: 30px;
     &:hover {
         background-color: #f272bc;
         color: $white-color;
     }
     .team-content {
-        text-align: center;
         padding: 25px 15px;
-
+        
         h3 {
+            text-align: center;
             font-size: 20px;
             font-weight: 600;
             margin: 0 0 6px 0;
         }
-        span {
+        span p {
             font-size: 14px;
         }
         .team-social {
@@ -4626,22 +4625,21 @@ Team Page Section CSS
     overflow: hidden;
     
     .team-item-area {
-        margin-bottom: 30px;
         cursor: pointer;
         &:hover {
             background-color: #f272bc;
             color: $white-color;
         }
         .team-content {
-            text-align: center;
             margin-top: 20px;
             h3 {
+                text-align: center;
                 font-size: 20px;
                 color: #fa579d;
                 font-weight: 500;
                 margin: 0 0 6px 0;
             }
-            span {
+            span p {
                 font-size: 14px;
                 color: #908e8e;
                 font-weight: 500;

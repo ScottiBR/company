@@ -6,11 +6,14 @@ import '../node_modules/react-modal-video/css/modal-video.min.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import '../public/css/style.css';
 import '../public/css/responsive.css';
+import './i18nClient';
 import { appWithTranslation } from 'next-i18next';
 
 import App from 'next/app';
 import Head from 'next/head';
 import GoTop from '../components/Layouts/GoTop';
+
+
 
 class MyApp extends App {
     render () {
@@ -20,7 +23,7 @@ class MyApp extends App {
             <>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <title>Company</title>
+                    <title>TDL</title>
                 </Head>
  
                 <Component {...pageProps} />

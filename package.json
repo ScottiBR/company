@@ -1,7 +1,7 @@
 {
-    "name": "company",
+    "name": "TDL",
     "version": "1.8.0",
-    "description": "company",
+    "description": "TDL",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
@@ -11,6 +11,8 @@
     "author": "Scotti",
     "dependencies": {
         "animate.css": "^4.1.1",
+        "i18next": "^20.4.0",
+        "i18next-browser-languagedetector": "^6.1.2",
         "next": "^11.0.1",
         "next-i18next": "^8.6.0",
         "react": "^17.0.2",

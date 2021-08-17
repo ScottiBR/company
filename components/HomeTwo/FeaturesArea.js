@@ -1,8 +1,8 @@
 import React from "react";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from 'react-i18next';
 
 const FeaturesArea = () => {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation();
   return (
     <section className="features-area pt-100 pb-70">
       <div className="container">
