@@ -6,6 +6,7 @@
 
 # Dependency directories
 node_modules/
+out/
 
 # Logs
 npm-debug.log*
