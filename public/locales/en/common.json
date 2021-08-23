@@ -8,7 +8,7 @@
   "aboutContent.paragraph": "Our belief in creating tangible value for our customers is our core. Attention to details and quality is unmatched in the industry. We’re not just a resource provider.",
   "featuresArea.section": "What Sets Our Talent Apart?",
   "featuresArea.title.0": "Team Players",
-  "featuresArea.description.0": "Only the Top 1% makes the TDL team",
+  "featuresArea.description.0": "Only the Top 1% makes the Top Dev Latam team",
   "featuresArea.title.1": "English Fluent",
   "featuresArea.description.1": "All members of our team have English proficiency",
   "featuresArea.title.2": "Performance focus",
@@ -36,5 +36,12 @@
   "footer": {
     "links": "Important Links",
     "phone": "Phone"
+  },
+  "form":{
+    "title":"Get in Touch",
+    "wannaHire":"Fill the form below, and a specialist will be in touch.",
+    "name": "Name *",
+    "send": "Send Message"
   }
+
 }

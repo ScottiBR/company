@@ -116,7 +116,6 @@ p:last-child {
   display: inline-block;
   padding: 13px 30px;
   color: #ffffff;
-  text-transform: capitalize;
   background-color: #f20791;
   border: 1px solid #f20791;
   -webkit-transition: 0.5s;

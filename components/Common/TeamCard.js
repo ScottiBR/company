@@ -7,7 +7,7 @@ const TeamMember = (team) =>
   team.map(({ name, job, linkedin }) => {
     const { t } = useTranslation();
     return (
-      <div className="col-lg-3 col-sm-6">
+      <div key={name} className="col-lg-3 col-sm-6">
         <div className="team-item-area">
           <a href={`https://www.linkedin.com/in/${linkedin}/`} target="_blank">
             <div className="team-image">

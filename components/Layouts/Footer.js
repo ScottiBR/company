@@ -80,15 +80,9 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-info-contact">
-                  <i className="flaticon-call-answer"></i>
-                  <h3>{t('footer.phone')}</h3>
-                  <span>+55(xx) xxxxx-xxxx</span>
-                </div>
-
-                <div className="footer-info-contact">
                   <i className="flaticon-envelope"></i>
                   <h3>Email</h3>
-                  <span>contact@tdl.com.br</span>
+                  <span>contact@topdevlatam.com.br</span>
                 </div>
               </div>
             </div>
@@ -120,7 +114,7 @@ const Footer = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <p>© {currentYear} TDL. All Rights Reserved</p>
+              <p>© {currentYear} Top Dev Latam. All Rights Reserved</p>
             </div>
           </div>
         </div>
