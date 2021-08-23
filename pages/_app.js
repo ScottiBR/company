@@ -23,7 +23,14 @@ class MyApp extends App {
             <>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <title>TDL</title>
+                    <meta name="description" content="Top Developers Latam is a provider of software development and outsourcing services"/>
+                    <meta name="robots" content="index,nofollow"/>
+                    <meta name="keywords" content="dev, outsourcing, software development, latam, brazil"/>
+                    <meta property="og:title" content="Top Dev Latam"/>
+                    <meta property="og:description" content="Offering software development and outsourcing services."/>
+                    <meta property="og:image" content="https://www.topdevlatam.com.br/images/logo.png"/>
+                    <meta property="og:url" content="https://www.topdevlatam.com.br/"/>
+                    <title>Top Dev Latam</title>
                 </Head>
  
                 <Component {...pageProps} />
