@@ -270,11 +270,6 @@ class NavbarTwo extends Component {
                                             </div>
                                         </div>
 
-                                        <div className="burger-menu" onClick={this.toggleModal}>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
                                     </div>
                                 </div>
                             </nav>
@@ -282,8 +277,6 @@ class NavbarTwo extends Component {
                     </div>
                 </div>
 
-                {/* Sidebar Modal */}
-                <SidebarModal onClick={this.toggleModal} active={this.state.sidebarModal ? 'active' : ''} />
             </>
         );
     }

@@ -98,24 +98,13 @@ class Navbar extends Component {
                 <div className={classOne} id="navbarSupportedContent">
                   <NavLink />
 
-                  <div className="others-options">
-                    <div className="burger-menu" onClick={this.toggleModal}>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
                 </div>
               </nav>
             </div>
           </div>
         </div>
 
-        {/* Sidebar Modal */}
-        <SidebarModal
-          onClick={this.toggleModal}
-          active={this.state.sidebarModal ? "active" : ""}
-        />
+       
       </>
     );
   }
