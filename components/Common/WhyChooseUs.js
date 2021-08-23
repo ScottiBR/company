@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
 
               <div className="choose-btn">
                 <Link href="/about-us">
-                  <a className="default-btn-one">Discover More</a>
+                  <a className="default-btn-one">{t("whyChooseUs.discover")}</a>
                 </Link>
               </div>
             </div>

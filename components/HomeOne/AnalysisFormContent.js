@@ -1,8 +1,20 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import emailjs from 'emailjs-com';
 
 const AnalysisFormContent = () => {
   const { t } = useTranslation();
+
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm('default_service', 'template_iluyrkk', e.target, 'user_5xdlJ45eocGpYGIVBhGs1')
+      .then((result) => {
+          console.log(result.text);
+          window.location.reload() 
+        }, (error) => {
+            console.log(error.text);
+        });
+  }
   return (
     <section className="analysis-section">
       <div className="container">
@@ -21,14 +33,14 @@ const AnalysisFormContent = () => {
               </p>
             </div>
 
-            <form className="contactForm">
+            <form className="contactForm" onSubmit={sendEmail}>
               <div className="row">
                 <div>
                   <div className="form-group">
                     <input
                       type="text"
-                      name="name"
-                      id="name"
+                      name="form_name"
+                      id="form_name"
                       className="form-control"
                       placeholder={t("form.name")}
                     />
@@ -38,8 +50,8 @@ const AnalysisFormContent = () => {
                   <div className="form-group">
                     <input
                       type="text"
-                      name="text"
-                      id="text"
+                      name="form_email"
+                      id="form_email"
                       className="form-control"
                       placeholder="Email *"
                     />
@@ -48,7 +60,7 @@ const AnalysisFormContent = () => {
               </div>
 
               <div className="send-btn">
-                <button type="submit" className="default-btn-one">
+                <button type="submit" className="default-btn-one" >
                     {t("form.send")}
                 </button>
               </div>

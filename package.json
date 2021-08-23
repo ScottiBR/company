@@ -11,6 +11,7 @@
     "author": "Scotti",
     "dependencies": {
         "animate.css": "^4.1.1",
+        "emailjs-com": "^3.2.0",
         "i18next": "^20.4.0",
         "i18next-browser-languagedetector": "^6.1.2",
         "next": "^11.0.1",
